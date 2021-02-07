@@ -153,7 +153,7 @@ const dinoJSON={
                   return dino.facts;
               
               case 4:
-                  return compareDiet(human,diet);
+                  return compareDiet(human,dino);
 
               case 5:
                   return `I used to live in ${dino.where}.`
